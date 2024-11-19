@@ -10,12 +10,13 @@ on:
     branches: [ "main" ]
 
 jobs:
-  permissions:
-    contentes: write
-    
+      
   build:
 
     runs-on: ubuntu-latest
+
+    permissions:
+    contentes: write
 
     strategy:
       matrix:
